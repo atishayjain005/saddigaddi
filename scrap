@@ -1,0 +1,77 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+  transition: 0.3s;
+  background: rgb(0, 0, 0);
+  margin: 5%;
+  border-radius: 0px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+h4{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding: 10px 0px ;
+    color: rgb(46, 46, 46);
+}
+h4:hover{
+  color: white;
+  transition: all .3s ease-in-out .05s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.644);
+}
+
+/* Add some padding inside the card container */
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+  transition: 0.3s;
+  background: rgb(0, 0, 0);
+  margin: 5%;
+  border-radius: 0px;
+  font-size: 20px;
+  text-align: center;
+  width: fit-content;
+  
+}
+h5{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding: 10px 0px ;
+    color: rgb(46, 46, 46);
+}
+h5:hover{
+  color: white;
+  transition: all .3s ease-in-out .05s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.644);
+}
+
+
+
+
+html
+<div class="container_top">
+                    <!-- The below code was causing some unwanted issue. -->
+                      <div class="card">
+                        <img src="Yamaha XJR1300 Skullmonkee Lato.jfif" alt="Avatar" width=100% >
+                        <div class="container">
+                          <h4><b>Yamaha XJR1300 Skullmonkee Lato</b></h4>
+                        </div>
+                      </div>
+                      <div class="card1">
+                        <img src="My 58 Rear.jfif" alt="Avatar">
+                        <div class="container1">
+                          <h5><b>Chopper</b></h>
+                        </div>
+                      </div> 
